@@ -23,13 +23,13 @@ async def dice(message: types.Message):
     print(message)
 
 answers = {
-    'привет': 'hello.txt',
-    'как дела?': 'how.txt',
-    'как тебя зовут?': 'name.txt',
-    'сколько тебе лет?': 'age.txt',
-    'сколько времени?': 'time.txt',
-    'какая погода?': 'weather.txt',
-    'пока':'bye.txt'
+    'Привет': 'hello.txt',
+    'Как дела?': 'how.txt',
+    'Как тебя зовут?': 'name.txt',
+    'Сколько тебе лет?': 'age.txt',
+    'Сколько времени?': 'time.txt',
+    'Какая погода?': 'weather.txt',
+    'Пока':'bye.txt'
 }
 
 @dp.message_handler()
